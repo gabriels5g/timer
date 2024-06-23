@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function toggleButtons(showPlay) {
-    playButton.classList.toggle('hiden', !showPlay);
+    playButton.classList.toggle("hiden", !showPlay);
     pauseButton.classList.toggle('hiden', showPlay);
     stopButton.classList.toggle('hiden', showPlay);
   }
